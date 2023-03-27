@@ -82,16 +82,16 @@ const Navbar = () =>{
                         </Link>
                     </ul>
                     <div className="pt-9">
-                        <p className="uppercase tracking-widest text-[#5651e5]">Prenons contact !</p>
+                        <p className="uppercase tracking-widest text-[#338be9]">Prenons contact !</p>
                         <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                             <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <FaLinkedinIn/>
+                                <a href='https://fr.linkedin.com/in/mohamed-ebarhmatin-376731179'><FaLinkedinIn/></a>
                              </div>
                              <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <FaGithub/>
+                                <a href="https://github.com/mohamedehn"><FaGithub/></a>
                              </div>
                              <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                                <AiOutlineMail/>
+                                <a href="mailto:mohamed.ebarhmatin@yahoo.fr"><AiOutlineMail/></a>
                              </div>
                              <div className="rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                 <BsPersonLinesFill/>
