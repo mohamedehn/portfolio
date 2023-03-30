@@ -13,7 +13,7 @@ const About = () => {
                     <p className="py-2 text-gray-600">
                         Actuellement en reconversion professionnelle, j’ai obtenu le diplôme de Développeur Intégrateur Web, de titre RNCP 
                         niveau 5 chez OpenClassrooms. Mes expériences m’ont permis d’acquérir une rigueur et un dynamisme qualitatifs, que je 
-                        souhaite désormais mettre à disposition dans le domaine informatique.
+                        souhaite désormais mettre à disposition dans le développement web.
                     </p>
                     <p className="py-2 text-gray-600">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed veniam natus eligendi quidem error assumenda incidunt 
