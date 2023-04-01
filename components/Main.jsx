@@ -12,7 +12,7 @@ const Main = () =>{
                 <div className='pt-24'>
                     <p className="uppercase text-sm tracking-widest text-gray-600">CONSTRUISONS ENSEMBLE LE WEB DE DEMAIN</p>
                     <h1 className="py-4 text-gray-700">
-                        Bienvenue sur <span className="text-[#338be9]">Digital</span> <span className="text-[#ffcc2f]">Comet</span>!
+                        Bienvenue sur mon<span className="text-[#338be9]"> Portfolio</span>!
                     </h1>
                     <h2 className="py-4 text-gray-700">
                         Je m&#39;appelle Mohamed, développeur web front-end

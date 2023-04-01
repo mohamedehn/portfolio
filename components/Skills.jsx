@@ -5,8 +5,8 @@ import react from "react";
 
 const Skills = () =>{
     return(
-        <div id='skills' className="w-full lg: h-screen p-2">
-            <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full pt-[750px] sm:pt-0">
+        <div id='skills' className="w-full lg:h-screen p-2 pt-[60px]">
+            <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full sm:pt-0">
                 <p className="text-xl tracking-widest uppercase text-[#338be9]">Skills</p>
                 <h2 className="py-4">Ce que je peux faire</h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
