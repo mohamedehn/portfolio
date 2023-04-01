@@ -5,7 +5,7 @@ import react from "react";
 
 const Skills = () =>{
     return(
-        <div className="w-full lg: h-screen p-2">
+        <div id='skills' className="w-full lg: h-screen p-2">
             <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full pt-[750px] sm:pt-0">
                 <p className="text-xl tracking-widest uppercase text-[#338be9]">Skills</p>
                 <h2 className="py-4">Ce que je peux faire</h2>

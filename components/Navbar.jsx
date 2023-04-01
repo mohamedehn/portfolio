@@ -2,7 +2,7 @@
 
 import Image from "next/image"; //useful to import images with next without import it from any files like react
 import Link from "next/link";
-import react, {useState} from "react";
+import react, {useState, useEffect} from "react";
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub, } from 'react-icons/fa'
 import {BsPersonLinesFill} from 'react-icons/bs'
@@ -11,35 +11,45 @@ const Navbar = () =>{
 
     //here I'm going to set the state to open and close the menu while I'm in a small screen like mobile
     const [nav, setNav] = useState(false);
+    const[shadow, setShadow] = useState(false)
 
     const handleNav = () =>{
         setNav(!nav)
     }
 
+    // useEffect here to show or not the shadow on the navbar while scrolling
+    useEffect(()=>{
+        const handleShadow = () =>{
+            if(window.scrollY >= 90){
+                setShadow(true)
+            }else{
+                setShadow(false)
+            }
+        }
+        window.addEventListener('scroll', handleShadow)
+    },[]) 
+
     return(
-        <div className="fixed w-full h-20 shadow-xl [z-100]">
+        <div className={shadow? 'fixed w-full h-20 shadow-xl [z-100]' : 'fixed w-full h-20 [z-100]'}>
              <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-                <Image 
-                    src="/../public/assets/navLogo.png" 
-                    alt="/" 
-                    width="125" 
-                    height="50"
-                />
+                <Link href="/">
+                    <Image src="/../public/assets/navLogo.png" alt="/" width="125" height="50"/>
+                </Link>
                 <div>
                     <ul className="hidden md:flex">
                         <Link href="/">
                             <li className="ml-10 text-sm uppercase hover:border-b"> Accueil</li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#about">
                             <li className="ml-10 text-sm uppercase hover:border-b"> A propos</li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#skills">
                             <li className="ml-10 text-sm uppercase hover:border-b"> Skills</li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#projects">
                             <li className="ml-10 text-sm uppercase hover:border-b"> Projets</li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#contact">
                             <li className="ml-10 text-sm uppercase hover:border-b"> Contact</li>
                         </Link>
                     </ul>
@@ -68,16 +78,16 @@ const Navbar = () =>{
                         <Link href="/">
                             <li className="py-4 text-sm"> Accueil </li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#about">
                             <li className="py-4 text-sm"> A propos </li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#skills">
                             <li className="py-4 text-sm"> Skills </li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#projects">
                             <li className="py-4 text-sm"> Projets </li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#contact">
                             <li className="py-4 text-sm"> Contact </li>
                         </Link>
                     </ul>
