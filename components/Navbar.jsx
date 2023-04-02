@@ -18,6 +18,7 @@ const Navbar = () =>{
     const [linkColor, setLinkColor] = useState('#1f2937')
     const router = useRouter()
 
+    //useEffect here to change the navbar rather I'm on project pages or main page
     useEffect(()=>{
         if (
             router.asPath === '/dns' ||
@@ -89,13 +90,13 @@ const Navbar = () =>{
                                  'fixed left-[-150%] top-0 p-10 ease-in duration-500'}>
                 <div>
                     <div className="flex w-full items-center justify-between">
-                        <Link href="/"><Image src="/../public/assets/navLogo.png" alt="/" width="135" height="80"/></Link> 
+                        <Link href="/"><Image src="/../public/assets/navLogo2.png" alt="/" width="120" height="50"/></Link> 
                         <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                             <AiOutlineClose/>
                         </div>
                     </div>
                     <div className="border-b border-gray-300 my-4 ">
-                        <p className="w-[90%] md:w-[90%] py-2">Construisons ensemble des solutions digitales extraordinaire !</p>
+                        <p className="w-[90%] md:w-[90%] py-2">Construisons ensemble le web de demain !</p>
                     </div>
                 </div>
                 <div className="py-4 flex flex-col">

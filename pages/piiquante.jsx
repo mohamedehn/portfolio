@@ -21,11 +21,10 @@ const piiquante = () => {
             <div className='col-span-4'>
                 <p>Projet</p>
                 <h2>Présentation</h2>
-                <p>Ce site a été crée en HTML et SCSS pour le côté front end et en Javascript, Node Js et Express pour le côté back end. 
-                    Le code est hebergé via Github. Il s&#39;agit d&#39;un projet réalisé dans le cadre de la formation de developpeur web que 
-                    j&#39;ai réalisé chez OpenClassrooms. Le site permet aux visiteurs de consulter de créer un compte, de s&#39;authentifier,
-                    de se connecter mais également de mettre en ligne une sauce. Ces sauces sont modifiables uniquement par le propriétaire. Les autres
-                    utilisateurs peuvent cependant liker ou disliker une sauce
+                <p>Ce site a été crée en HTML, CSS, Javascript, Node Js et Express. Il s&#39;agit d&#39;un projet réalisé dans le cadre de la 
+                    formation de developpeur web que j&#39;ai réalisé chez OpenClassrooms. Le site permet aux visiteurs de consulter de créer un 
+                    compte, de s&#39;authentifier, de se connecter mais également de mettre en ligne une sauce. Ces sauces sont modifiables 
+                    uniquement par le propriétaire. Les autres utilisateurs peuvent liker ou disliker une sauce.
                 </p>
                 <a href="https://github.com/mohamedehn/PIIQUANTE-P6/tree/dev"><button className='px-8 py-2 mt-4'>Code</button></a>
             </div>

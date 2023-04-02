@@ -36,7 +36,7 @@ const ohmyfood = () => {
                             <RiRadioButtonFill className='pr-1'/> HTML
                         </p>
                         <p className='text-gray-600 py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1'/> CSS et SASS
+                            <RiRadioButtonFill className='pr-1'/> SCSS
                         </p>
                     </div>
                 </div>

@@ -24,8 +24,6 @@ const kasa = () => {
                 <p>Ce site a été crée avec React JS, CSS et le prépocesseur sass. L&#39;hébergement est réalisé via githubPages. Il s&#39;agit
                     d&#39;un projet réalisé dans le cadre de la formation de developpeur web que j&#39;ai réalisé chez OpenClassrooms.
                     Il s&#39;agit d&#39;une application React qui permet aux utilisateurs et aux visiteurs de trouver et louer un logement.
-                    Le code permet depuis une données stocké dans un fichier Json d&#39;afficher un logement suivant son ID depuis une seule
-                    et même page.
                 </p>
                 <a href="https://mohamedehn.github.io/kasa/"><button className='px-8 py-2 mt-4 mr-8'>Démo</button></a> 
                 <a href="https://github.com/mohamedehn/kasa/tree/dev"><button className='px-8 py-2 mt-4'>Code</button></a>
@@ -41,7 +39,7 @@ const kasa = () => {
                             <RiRadioButtonFill className='pr-1'/> Javascript
                         </p>
                         <p className='text-gray-600 py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1'/> CSS - SASS
+                            <RiRadioButtonFill className='pr-1'/> SCSS
                         </p>
                     </div>
                 </div>

@@ -23,8 +23,7 @@ const ges = () => {
                 <p>Ce site a été crée avec React JS, Tailwind CSS et hébergé chez Hostinger.
                     Ce site est une landing page visant a présenter l&#39;entreprise Green Energy Solutions en présentant ses différentes activités.
                     Le site permet aux visiteurs également de contacter l&#39;entreprise via un formulaire géré par netlify, de consulter les aides
-                    proposées par l&#39;état dans le cadre de travaux d&#39;amélioration de la performance énergétique d&#39;un logement avec des 
-                    liens vers les sites de l&#39;état.
+                    proposées par l&#39;état.
                 </p>
                 <a href="https://greenenergysolutions.fr/"><button className='px-8 py-2 mt-4 mr-8'>Démo</button></a> 
                 <a href="https://github.com/mohamedehn/ges/tree/dev"><button className='px-8 py-2 mt-4'>Code</button></a>
@@ -40,7 +39,7 @@ const ges = () => {
                             <RiRadioButtonFill className='pr-1'/> Javascript
                         </p>
                         <p className='text-gray-600 py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1'/> Tailwind CSS
+                            <RiRadioButtonFill className='pr-1'/> Tailwind
                         </p>
                     </div>
                 </div>

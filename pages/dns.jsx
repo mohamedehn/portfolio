@@ -22,8 +22,6 @@ const dns = () => {
                 <h2>Présentation</h2>
                 <p>Ce site a été crée avec React JS, Tailwind CSS et hébergé chez Hostinger. Les images animées ont été inséré via Lottie.
                     Ce site est une landing page visant a présenter l&#39;entreprise Data Network Solutions en présentant ses différentes activités.
-                    Le site permet aux visiteurs également de contacter l&#39;entreprise via un formulaire géré par netlify, de consulter les 
-                    offres d&#39;emplois et également de postuler aux offres.
                 </p>
                 <a href="https://datanetworksolutions.fr/"><button className='px-8 py-2 mt-4 mr-8'>Démo</button></a>
                 <a href="https://github.com/mohamedehn/data-network-solutions/tree/dev"><button className='px-8 py-2 mt-4'>Code</button></a> 
@@ -39,10 +37,7 @@ const dns = () => {
                             <RiRadioButtonFill className='pr-1'/> Javascript
                         </p>
                         <p className='text-gray-600 py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1'/> Tailwind CSS
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1'/> Lottie
+                            <RiRadioButtonFill className='pr-1'/> Tailwind
                         </p>
                     </div>
                 </div>
