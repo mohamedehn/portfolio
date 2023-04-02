@@ -16,7 +16,7 @@ const Navbar = () =>{
     //Below is the state to have deux different navbar bg
     const [navBg, setNavBg] = useState('#ecf0f3')
     const [linkColor, setLinkColor] = useState('#1f2937')
-    const router = useRouter
+    const router = useRouter()
 
     useEffect(()=>{
         if (

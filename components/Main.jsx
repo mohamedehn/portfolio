@@ -5,7 +5,21 @@ import {FaLinkedinIn, FaGithub, } from 'react-icons/fa'
 import {BsPersonLinesFill} from 'react-icons/bs'
 import react from 'react';
 
+const cv = 'http://localhost:3000/cv.pdf' //this will define the url of the document
+
 const Main = () =>{
+
+    //here a function to allow visitors download my resume
+    const downloadFile = (url) =>{
+        const fileName = url.split('/').pop()
+        const aTag = document.createElement('a')
+        aTag.href = url
+        aTag.setAttribute('download', fileName)
+        document.body.appendChild(aTag)
+        aTag.click()
+        aTag.remove()
+    }
+
     return(
         <div id="main" className="w-full h-screen text-center">
             <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
@@ -30,7 +44,7 @@ const Main = () =>{
                         <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <a href="mailto:mohamed.ebarhmatin@yahoo.fr"><AiOutlineMail/></a>
                         </div>
-                        <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                        <div onClick={()=>{downloadFile(cv)}} className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <BsPersonLinesFill/>
                         </div>
                     </div>

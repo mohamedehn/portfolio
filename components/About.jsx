@@ -1,6 +1,7 @@
 //in here we have the about section we my personnal informations and an image close to the text
 
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
     return(
@@ -16,13 +17,11 @@ const About = () => {
                         souhaite désormais mettre à disposition dans le développement web.
                     </p>
                     <p className="py-2 text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed veniam natus eligendi quidem error assumenda incidunt 
-                        cupiditate neque est non. Doloremque sed porro minus quidem ipsam soluta quis! Illo, libero!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed veniam natus eligendi quidem error assumenda incidunt 
-                        cupiditate neque est non. Doloremque sed porro minus quidem ipsam soluta quis! Illo, libero!
+                        Préoccupé par les besoins des clients et pour mon côté créatif, j&#39;ai décidé de m&#39;orienter sur la partie front-end,
+                        bien que je possède également des notions en back-end.
                     </p>
                     <p className="py-2 text-gray-600 underline cursor-pointer">
-                        Je vous invite à consulter certains de mes projets !
+                        <Link href="/#projects">Je vous invite à consulter certains de mes projets !</Link> 
                     </p>
                 </div>
                 <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300"> 
