@@ -5,7 +5,7 @@ import {FaLinkedinIn, FaGithub, } from 'react-icons/fa'
 import {BsPersonLinesFill} from 'react-icons/bs'
 import react from 'react';
 
-const cv = 'http://localhost:3000/cv.pdf' //this will define the url of the document
+const cv = 'https://mohamedehn.github.io/portfolio/cv.pdf' //this will define the url of the document
 
 const Main = () =>{
 
