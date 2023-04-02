@@ -8,7 +8,23 @@ import {BsPersonLinesFill} from 'react-icons/bs'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link';
 
+
+const cv = 'https://mohamedehn.github.io/portfolio/cv.pdf' //this will define the url of the document
+
+
 function Contact() {
+
+    //here a function to allow visitors download my resume
+    const downloadFile = (url) =>{
+        const fileName = url.split('/').pop()
+        const aTag = document.createElement('a')
+        aTag.href = url
+        aTag.setAttribute('download', fileName)
+        document.body.appendChild(aTag)
+        aTag.click()
+        aTag.remove()
+    }
+
   return (
     <div id='contact' className='w-full lg:h-screen pt-[50px]'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
@@ -29,16 +45,22 @@ function Contact() {
                         <div>
                         <p className='uppercase pt-8'>Connectons-nous !</p>
                         <div className='flex items-center justify-between py-4'>
-                            <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                                <a href='https://fr.linkedin.com/in/mohamed-ebarhmatin-376731179'><FaLinkedinIn/></a>
-                            </div>
-                            <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                                <a href="https://github.com/mohamedehn"><FaGithub/></a>
-                            </div>
-                            <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                                <a href="mailto:mohamed.ebarhmatin@yahoo.fr"><AiOutlineMail/></a>
-                            </div>
-                            <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <a href="https://fr.linkedin.com/in/mohamed-ebarhmatin-376731179">
+                                <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                    <FaLinkedinIn/>
+                                </div>
+                            </a>
+                            <a href="https://github.com/mohamedehn">
+                                <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                    <FaGithub/>
+                                </div>
+                            </a>
+                            <a href="mailto:mohamed.ebarhmatin@yahoo.fr">
+                                <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                    <AiOutlineMail/>
+                                </div>
+                            </a>
+                            <div onClick={()=>{downloadFile(cv)}} className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                                 <BsPersonLinesFill/>
                             </div>
                         </div>
@@ -64,7 +86,7 @@ function Contact() {
                                 <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name='email'/>
                             </div>
                             <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm py-2'>Sujet</label>
+                                <label className='uppercase text-sm py-2'>Objet</label>
                                 <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name='subject'/>
                             </div>
                             <div className='flex flex-col py-2'>

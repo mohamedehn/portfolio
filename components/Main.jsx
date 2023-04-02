@@ -32,18 +32,24 @@ const Main = () =>{
                         Je m&#39;appelle Mohamed, développeur web front-end
                     </h2>
                     <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-                        Passionné par le développement web, j&#39;ai décidé en 2022 de faire de ma passion mon métier en effectuant une reconversion professionnelle.
+                        Passionné par le développement web, j&#39;ai décidé, en 2022, de faire de ma passion mon métier en effectuant une reconversion professionnelle.
                     </p>
                     <div className="py-2 flex items-center justify-between max-w-[330px] m-auto">
-                        <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <a href='https://fr.linkedin.com/in/mohamed-ebarhmatin-376731179'><FaLinkedinIn/></a>
-                        </div>
-                        <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <a href="https://github.com/mohamedehn"><FaGithub/></a>
-                        </div>
-                        <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                            <a href="mailto:mohamed.ebarhmatin@yahoo.fr"><AiOutlineMail/></a>
-                        </div>
+                        <a href="https://fr.linkedin.com/in/mohamed-ebarhmatin-376731179">
+                            <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                <FaLinkedinIn/>
+                            </div>
+                        </a>
+                        <a href="https://github.com/mohamedehn">
+                            <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                <FaGithub/>
+                            </div>
+                        </a>
+                        <a href="mailto:mohamed.ebarhmatin@yahoo.fr">
+                            <div className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                                <AiOutlineMail/>
+                            </div>
+                        </a>
                         <div onClick={()=>{downloadFile(cv)}} className="rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                             <BsPersonLinesFill/>
                         </div>
