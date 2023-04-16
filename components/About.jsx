@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import img from "../public/assets/about.jpeg"
+import img from "../public/assets/about.webp"
 
 const About = () => {
     return(

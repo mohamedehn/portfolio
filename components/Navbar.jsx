@@ -2,12 +2,12 @@
 
 import Image from "next/image"; //useful to import images with next without import it from any files like react
 import Link from "next/link";
-import react, {useState, useEffect} from "react";
+import {react, useState, useEffect} from "react";
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub, } from 'react-icons/fa'
 import {BsPersonLinesFill} from 'react-icons/bs'
 import { useRouter } from "next/router";
-import logo from "../public/assets/navLogo2.png"
+import logo from "../public/assets/navLogo2.webp"
 
 const Navbar = () =>{
 

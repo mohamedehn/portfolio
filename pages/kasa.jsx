@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import kasaImg from '../public/assets/projects/kasaBackground.png';
+import kasaImg from '../public/assets/projects/kasaBackground.webp';
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link';
 

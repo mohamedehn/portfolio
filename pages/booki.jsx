@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import bookiImg from '../public/assets/projects/bookiBackground.png';
+import bookiImg from '../public/assets/projects/bookiBackground.webp';
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link';
 

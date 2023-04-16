@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import react from "react";
-import dns from "../public/assets/projects/dns.png"
-import ges from "../public/assets/projects/ges.png"
-import kasa from "../public/assets/projects/kasa.png"
+import dns from "../public/assets/projects/dns.webp"
+import ges from "../public/assets/projects/ges.webp"
+import kasa from "../public/assets/projects/kasa.webp"
 import booki from "../public/assets/projects/booki.png"
-import food from "../public/assets/projects/food.png"
-import flame from "../public/assets/projects/flame.png"
-import kanap from "../public/assets/projects/kanap.png"
+import food from "../public/assets/projects/food.webp"
+import flame from "../public/assets/projects/flame.webp"
+import kanap from "../public/assets/projects/kanap.webp"
 import panthere from "../public/assets/projects/panthere.png"
-import comet from "../public/assets/projects/comet.png"
+import comet from "../public/assets/projects/comet.webp"
 
 import ProjectItem from "./ProjectItems";
 

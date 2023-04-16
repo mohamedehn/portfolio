@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import dns from "../public/assets/projects/dns.png"
+// import dns from "../public/assets/projects/dns.png"
 
 function ProjectItem({title, backgroundImg, url, tech}) {
   return (

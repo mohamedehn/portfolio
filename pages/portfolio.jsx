@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import portfolioImg from '../public/assets/projects/portfolioBackground.png';
+import portfolioImg from '../public/assets/projects/portfolioBackground.webp';
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link';
 

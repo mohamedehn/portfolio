@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import dnsImg from '../public/assets/projects/dnsBackground.png';
+import dnsImg from '../public/assets/projects/dnsBackground.webp';
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link';
 

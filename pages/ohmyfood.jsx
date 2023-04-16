@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import ohmyfoodImg from '../public/assets/projects/ohmyfoodBackground.jpg';
+import ohmyfoodImg from '../public/assets/projects/ohmyfoodBackground.webp';
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link';
 

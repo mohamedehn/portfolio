@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import piiquanteImg from '../public/assets/projects/piiquanteBackground.png';
+import piiquanteImg from '../public/assets/projects/piiquanteBackground.webp';
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link';
 
