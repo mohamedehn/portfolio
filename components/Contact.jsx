@@ -98,12 +98,12 @@ function Contact() {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center py-12'>
-                <Link href="/">
+            <div className='flex justify-center py-12 scroll-smooth'>
+                <a href="#main">
                     <div className='rounded-full shadow-lg shadow-gray-500 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <HiOutlineChevronDoubleUp size={30} className='text-[#338be9]'/>
                     </div>
-                </Link>
+                </a>
             </div>
         </div>
     </div>
