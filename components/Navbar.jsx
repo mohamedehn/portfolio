@@ -1,7 +1,7 @@
 // In this file I'm going to setup my navbar 
 
 import Image from "next/image"; //useful to import images with next without import it from any files like react
-import Link from "next/link";
+// import Link from "next/link";
 import {react, useState, useEffect} from "react";
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub, } from 'react-icons/fa'
@@ -59,26 +59,26 @@ const Navbar = () =>{
     return(
         <div className={shadow? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'} style={{backgroundColor: `${navBg}`}}>
              <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-                <Link href="/">
+                <a href="#main">
                     <Image src={logo} alt="/" width="125" height="50"/>
-                </Link>
+                </a>
                 <div>
                     <ul style={{color:`${linkColor}`}} className="hidden md:flex">
-                        <Link href="/">
+                        <a href="#main">
                             <li className="ml-10 text-sm uppercase hover:border-b"> Accueil</li>
-                        </Link>
-                        <Link href="/#about">
+                        </a>
+                        <a href="#about">
                             <li className="ml-10 text-sm uppercase hover:border-b"> A propos</li>
-                        </Link>
-                        <Link href="/#skills">
+                        </a>
+                        <a href="#skills">
                             <li className="ml-10 text-sm uppercase hover:border-b"> Skills</li>
-                        </Link>
-                        <Link href="/#projects">
+                        </a>
+                        <a href="#projects">
                             <li className="ml-10 text-sm uppercase hover:border-b"> Projets</li>
-                        </Link>
-                        <Link href="/#contact">
+                        </a>
+                        <a href="#contact">
                             <li className="ml-10 text-sm uppercase hover:border-b"> Contact</li>
-                        </Link>
+                        </a>
                     </ul>
                     <div onClick={handleNav} className="md:hidden cursor-pointer">
                         <AiOutlineMenu size={25}/>  
@@ -91,7 +91,7 @@ const Navbar = () =>{
                                  'fixed left-[-150%] top-0 p-10 ease-in duration-500'}>
                 <div>
                     <div className="flex w-full items-center justify-between">
-                        <Link href="/"><Image src={logo} alt="/" width="120" height="50"/></Link> 
+                        <a href="#main"><Image src={logo} alt="/" width="120" height="50"/></a> 
                         <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                             <AiOutlineClose/>
                         </div>
@@ -102,21 +102,21 @@ const Navbar = () =>{
                 </div>
                 <div className="py-4 flex flex-col">
                     <ul className="uppercase">
-                        <Link href="/">
+                        <a href="#main">
                             <li onClick={()=>setNav(false)} className="py-4 text-sm"> Accueil </li>
-                        </Link>
-                        <Link href="/#about">
+                        </a>
+                        <a href="#about">
                             <li onClick={()=>setNav(false)} className="py-4 text-sm"> A propos </li>
-                        </Link>
-                        <Link href="/#skills">
+                        </a>
+                        <a href="#skills">
                             <li onClick={()=>setNav(false)} className="py-4 text-sm"> Skills </li>
-                        </Link>
-                        <Link href="/#projects">
+                        </a>
+                        <a href="#projects">
                             <li onClick={()=>setNav(false)} className="py-4 text-sm"> Projets </li>
-                        </Link>
-                        <Link href="/#contact">
+                        </a>
+                        <a href="#contact">
                             <li onClick={()=>setNav(false)} className="py-4 text-sm"> Contact </li>
-                        </Link>
+                        </a>
                     </ul>
                     <div className="pt-9">
                         <p className="uppercase tracking-widest text-[#338be9]">Prenons contact !</p>

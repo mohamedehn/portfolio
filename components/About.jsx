@@ -22,7 +22,7 @@ const About = () => {
                         bien que je possède également des notions en back-end.
                     </p>
                     <p className="py-2 text-gray-600 underline cursor-pointer">
-                        <Link href="/#projects">Je vous invite à consulter certains de mes projets !</Link> 
+                        <a href="#projects">Je vous invite à consulter certains de mes projets !</a> 
                     </p>
                 </div>
                 <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300"> 
