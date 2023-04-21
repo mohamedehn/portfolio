@@ -23,7 +23,7 @@ const dns = () => {
                 <p>Ce site a été crée avec React JS, Tailwind CSS et hébergé chez OVH. Les images animées ont été inséré via Lottie.
                     Ce site est une landing page visant a présenter l&#39;association Prestat&#39;air en présentant ses différentes activités.
                 </p>
-                <a href="https://www.association-prestatair.com/"><button className='px-8 py-2 mt-4 mr-8'>Démo</button></a>
+                <a href="https://lively-quokka-bd5b8f.netlify.app/"><button className='px-8 py-2 mt-4 mr-8'>Démo</button></a>
                 <a href="https://github.com/mohamedehn/prestatair/tree/dev"><button className='px-8 py-2 mt-4'>Code</button></a> 
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
