@@ -11,6 +11,7 @@ import kanap from "../public/assets/projects/kanap.webp"
 import panthere from "../public/assets/projects/panthere.png"
 import comet from "../public/assets/projects/comet.webp"
 import prestatair from "../public/assets/projects/prestatair.webp"
+import snapface from "../public/assets/projects/snapface.png"
 
 import ProjectItem from "./ProjectItems";
 
@@ -21,6 +22,7 @@ const Projects = () =>{
                 <p className="text-xl tracking-widest uppercase text-[#338be9]">Projects</p>
                 <h2 className="py-4">Voici mes créations</h2>
                 <div className="grid md:grid-cols-3 gap-8">
+                    <ProjectItem title="SnapFace" backgroundImg={snapface} url='/snapface' tech="Angular - TypeScript - SCSS"/>
                     <ProjectItem title="Prestat'air" backgroundImg={prestatair} url='/prestatair' tech="React Js - Tailwind"/>
                     <ProjectItem title="Data Network Solutions" backgroundImg={dns} url='/dns' tech="React Js - Tailwind"/>
                     <ProjectItem title="Green Energy Solutions" backgroundImg={ges} url='/ges' tech="React Js"/>

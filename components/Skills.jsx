@@ -12,6 +12,9 @@ import nextjs from "../public/assets/skills/nextjs.png"
 import node from "../public/assets/skills/node.png"
 import reactImg from "../public/assets/skills/react.png"
 import tailwind from "../public/assets/skills/tailwind.png"
+import angular from "../public/assets/skills/angular.png"
+import ts from "../public/assets/skills/ts.png"
+
 
 
 const Skills = () =>{
@@ -118,6 +121,26 @@ const Skills = () =>{
                             </div>
                             <div className="flex flex-col items-center justify-center">
                                 <h3>TAILWIND</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image src={angular} alt="/" width="64" height="64"/>
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
+                                <h3>ANGULAR</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image src={ts} alt="/" width="64" height="64"/>
+                            </div>
+                            <div className="flex flex-col items-center justify-center">
+                                <h3>TYPESCRIPT</h3>
                             </div>
                         </div>
                     </div>
