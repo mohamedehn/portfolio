@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import snapface from '../public/assets/projects/snapface.png';
+import snapface from '../public/assets/projects/snapfaceBackground.png';
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link';
 
