@@ -4,7 +4,7 @@ import snapface from '../public/assets/projects/snapfaceBackground.png';
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link';
 
-const dns = () => {
+const snapFace = () => {
   return (
     <div className='w-full'>
         <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -51,4 +51,4 @@ const dns = () => {
   )
 }
 
-export default dns;
+export default snapFace;

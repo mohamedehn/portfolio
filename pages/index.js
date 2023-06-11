@@ -6,6 +6,8 @@ import About from '@/components/About'
 import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
+import Footer from '@/components/Footer'
+import PopUpCookies from '@/components/PopUpCookies'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -15,16 +17,18 @@ export default function Home() {
     <>
       <Head>
         <title>Mohamed - Développeur Front-End</title>
-        <meta name="description" content="Mohamed Ebarhmatin, développeur front-end.Préoccupé par les besoins des clients et pour 
+        <meta name="description" content="Mohamed Ebarhmatin, développeur front-end. Préoccupé par les besoins des clients et pour 
         mon côté créatif, j'ai décidé de m'orienter sur la partie front-end, bien que je possède également des notions en back-end." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <PopUpCookies/>
       <Main/>
       <About/>
       <Skills/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </>
   )
 }
