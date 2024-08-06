@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import ohmyfoodImg from "../public/assets/projects/ohmyfoodBackground.webp";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import psy from "../public/assets/projects/psy.png";
 
-const ohmyfood = () => {
+const alisee = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -14,11 +14,11 @@ const ohmyfood = () => {
           layout="fill"
           objectFit="cover"
           alt=""
-          src={ohmyfoodImg}
+          src={psy}
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 text-white">
-          <h2 className="py-2">OhMyFood</h2>
-          <h3>HTML - CSS et SASS</h3>
+          <h2 className="py-2">Alisée Eggermont</h2>
+          <h3>Angular - SCSS</h3>
         </div>
       </div>
 
@@ -27,16 +27,15 @@ const ohmyfood = () => {
           <p>Projet</p>
           <h2>Présentation</h2>
           <p>
-            Ce site a été crée en HTML et CSS. L&#39;hébergement est réalisé via
-            githubPages. Il s&#39;agit d&#39;un projet réalisé dans le cadre de
-            la formation de developpeur web que j&#39;ai réalisé chez
-            OpenClassrooms. Le site permet aux visiteurs de consulter des
-            logements et des activités en fonction de la ville (ici Marseille).
+            Ce site a été crée avec Angular et Tailwind. Il s&#39;agit d&#39;une landing page,
+            qui présente le cabinet de psychanalyse de Madame Eggermont.
+            Une intégration d&#39;un agenda externe de chez Psychologue.net a été effectué avec un iframe
+            afin de faciliter la prise de rendez-vous.
           </p>
-          <a href="https://mohamedehn.github.io/openclassrooms.ohmyfood/">
+          <a href="https://alisee-eggermont-psy.fr/">
             <button className="px-8 py-2 mt-4 mr-8">Démo</button>
           </a>
-          <a href="https://github.com/mohamedehn/openclassrooms.ohmyfood/tree/dev">
+          <a href="https://github.com/mohamedehn/alisee-e">
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>
@@ -45,7 +44,7 @@ const ohmyfood = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> HTML
+                <RiRadioButtonFill className="pr-1" /> Angular
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> SCSS
@@ -61,4 +60,4 @@ const ohmyfood = () => {
   );
 };
 
-export default ohmyfood;
+export default alisee;
