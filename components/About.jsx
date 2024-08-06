@@ -10,33 +10,28 @@ const About = () => {
             A propos
           </p>
           <h2 className="py-4 ">Présentation</h2>
-          <p className="py-2 text-gray-600">
-            Un développeur pas comme les autres !
-          </p>
           <div className="py-2 text-gray-600 text-justify">
             <p>
-            Après avoir entamé une reconversion professionnelle en 2022, j’ai pu acquérir des compétences
-            en HTML, CSS, mais surtout en Javascript par le biais des frameworks Angular, NextJs ou Express Js. <br/>
-            J&#39;ai obtenu le diplôme de Développeur Intégrateur Web, de chez OpenClassroom en 2022 puis
-            j&#39;ai poursuivi mon apprentissage en 2023 avec la formation Concepteur développeurs
-            d&#39;application auprès de la Wild Code School (option Java - Angular).
+              Après avoir entamé une reconversion professionnelle en 2022, j’ai
+              pu acquérir des compétences en HTML, CSS, mais surtout en
+              Javascript par le biais des frameworks Angular, NextJs ou Express
+              Js. <br />
+              J&#39;ai obtenu le diplôme de Développeur Intégrateur Web, de chez
+              OpenClassroom en 2022 puis j&#39;ai poursuivi mon apprentissage en
+              2023 avec la formation Concepteur développeurs d&#39;application
+              auprès de la Wild Code School (option Java - Angular).
             </p>
-
             <p className="pt-2">
-            Spécialisé en front-end, je suis également à l&#39;aise avec le back-end sur des technologies
-            de type Node Js (Express Js) ou Java (Spring Boot).
+              Spécialisé en front-end, je suis également à l&#39;aise avec le
+              back-end sur des technologies de type Node Js (Express Js) ou Java
+              (Spring Boot).
             </p>
-
             <p className="pt-2">
-            Mes expériences m’ont permis d’acquérir une rigueur et un dynamisme qualitatifs, que je souhaite
-            désormais mettre à disposition dans le développement web.
+              Mes expériences m’ont permis d’acquérir une rigueur et un
+              dynamisme qualitatifs, que je souhaite désormais mettre à
+              disposition dans le développement web.
             </p>
           </div>
-          <p className="py-2 text-gray-600">
-            Préoccupé par les besoins des clients et pour mon côté créatif,
-            j&#39;ai décidé de m&#39;orienter sur la partie front-end, bien que
-            je possède également des notions en back-end.
-          </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
             <a href="#projects">
               Je vous invite à consulter certains de mes projets !
