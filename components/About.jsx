@@ -12,24 +12,23 @@ const About = () => {
           <h2 className="py-4 ">Présentation</h2>
           <div className="py-2 text-gray-600 text-justify">
             <p>
-              Après avoir entamé une reconversion professionnelle en 2022, j’ai
-              pu acquérir des compétences en HTML, CSS, mais surtout en
-              Javascript par le biais des frameworks Angular, NextJs ou Express
-              Js. <br />
-              J&#39;ai obtenu le diplôme de Développeur Intégrateur Web, de chez
-              OpenClassroom en 2022 puis j&#39;ai poursuivi mon apprentissage en
-              2023 avec la formation Concepteur développeurs d&#39;application
-              auprès de la Wild Code School (option Java - Angular).
+              En 2022, j’ai décidé de plonger dans le développement web et c’est rapidement devenu une
+              véritable passion. Dès mes premiers projets, j’ai trouvé un réel plaisir à créer des interfaces
+              fonctionnelles et intuitives, en travaillant sur des technologies comme HTML, CSS et surtout
+              JavaScript. Les frameworks Angular, Next.js et Express.js sont devenus mes outils privilégiés
+              pour transformer des idées en solutions concrètes.
             </p>
             <p className="pt-2">
-              Spécialisé en front-end, je suis également à l&#39;aise avec le
-              back-end sur des technologies de type Node Js (Express Js) ou Java
-              (Spring Boot).
+              Spécialisé dans le front-end, j’ai également développé une expertise en back-end, notamment
+              avec Node.js (Express.js) et Java (Spring Boot). Ce mélange de compétences me permet d’avoir
+              une vision globale des projets et de concevoir des applications complètes, de l’interface
+              utilisateur aux services côté serveur.
             </p>
             <p className="pt-2">
-              Mes expériences m’ont permis d’acquérir une rigueur et un
-              dynamisme qualitatifs, que je souhaite désormais mettre à
-              disposition dans le développement web.
+              Mon approche du développement est marquée par la rigueur et l’envie constante d’améliorer
+              mes compétences. Je suis toujours à l’affût des nouvelles technologies et des meilleures
+              pratiques pour offrir des solutions à la fois élégantes et performantes. Aujourd’hui, je suis
+              prêt à mettre cette passion et cette expertise au service de projets ambitieux.
             </p>
           </div>
           <p className="py-2 text-gray-600 underline cursor-pointer">

@@ -1,8 +1,6 @@
 import Image from "next/image";
-import react from "react";
 import html from "../public/assets/skills/html.png";
 import css from "../public/assets/skills/css.png";
-import firebase from "../public/assets/skills/firebase.png";
 import github from "../public/assets/skills/github1.png";
 import javascript from "../public/assets/skills/javascript.png";
 import mongo from "../public/assets/skills/mongo.png";
@@ -16,11 +14,12 @@ import java from "../public/assets/skills/java.png";
 import graphQl from "../public/assets/skills/graphQl.png";
 import sql from "../public/assets/skills/sql.png";
 import springBoot from "../public/assets/skills/springBoot.png";
+import docker from "../public/assets/skills/docker.png";
 
 const skills = [
   { src: html, name: "HTML" },
   { src: css, name: "CSS" },
-  { src: firebase, name: "FIREBASE" },
+  { src: docker, name: "DOCKER" },
   { src: github, name: "GITHUB" },
   { src: javascript, name: "JAVASCRIPT" },
   { src: mongo, name: "MONGO" },
