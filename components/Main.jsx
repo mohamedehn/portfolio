@@ -28,7 +28,7 @@ const Main = () => {
           </h1>
           <h2 className="py-4 text-gray-700">
             Je m&#39;appelle Mohamed, développeur full stack spécialisé en
-            Javascript
+            Javascript et Java
           </h2>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             Passionné par le développement, j&#39;ai décidé, en 2022, de faire
