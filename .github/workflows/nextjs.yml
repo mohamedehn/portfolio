@@ -84,7 +84,7 @@ jobs:
       - name: Check artifact size
         run: du -sh ./out
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           name: github-pages
           path: ./out
